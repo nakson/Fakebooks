@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search_wrapper">
+            keyword: <input type="text" size="40" name="keyword" id="keyword" />
+            <button id="search" onclick="keywordSearchHandler()" style="margin-bottom: 50px;">Search Songs</button>
+            <button id="searchBooks" onclick="bookSearchHandler()" style="margin-bottom: 50px;">Search Books</button>
+        </div>
+        <div id="item_details"></div>
+        <div></div>
+        <div id="search_results"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
