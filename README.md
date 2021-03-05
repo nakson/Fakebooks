@@ -13,3 +13,5 @@ $ npm install
 $ node server.js
 ```
 
+![screenshot](./data/screenshot.gif)
+
